@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  web-dev-nginx:
+    image: nginx
+    network_mode: "host"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./frontend:/www/data:ro
+  web-dev-redis:
+    image: redis:6.0.8
+    ports:
+      - "6379:6379"
+  web-dev-node:
+    build:
+      context: ./nodejs
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - ACCUWEATHER_API_KEY=6hVryHcMAG9l6N1dfHUdd57FEytJ8gsU
