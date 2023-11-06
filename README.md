@@ -19,7 +19,7 @@ Also, in the end, a competition was held.
 # Maintainers
 - [Iman Mohammadi](https://github.com/Imanm02)
 - [Ali Salesi](https://github.com/AlisaLC)
-- [Shayan Salehi](https://github.com/eyepatchss)
+- [Shayan Salehi](https://github.com/ShayanSalehi81)
 - [Armin Saghafian](https://github.com/ArminS1000)
 - [Seyed Parsa Neshaei](https://github.com/spneshaei)
 - [Ali Asghar Ghanati](https://github.com/AliLordLoss)
